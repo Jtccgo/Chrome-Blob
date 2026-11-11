@@ -7,8 +7,8 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
   vec3 sun = vec3(0.1, 0.6, 0.2);
   vec3 sky = vec3(0.1, 0.05, 0.3);
 
-  float t = iTime * 5;
-  float bend = sin(uv.x * 8.0) * 0.05;
+  float t = iTime * .8;
+  float bend = sin(uv.x * 100.0) * 0.05;
   float h = uv.y + bend;
 
   vec3 col = mix(sun, sky, smoothstep(0.0, 1.0, h));

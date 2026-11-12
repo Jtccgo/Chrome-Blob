@@ -2,8 +2,8 @@
   "ver": "0.1",
   "info": {
     "id": "",
-    "name": "",
-    "description": "",
+    "name": "Chrome Blob",
+    "description": "This shader shows sinusodial and periodic traits of the sine function.",
     "tags": []
   },
   "renderpass": [
